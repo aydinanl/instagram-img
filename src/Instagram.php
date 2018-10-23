@@ -54,7 +54,6 @@ class Instagram implements InstagramInterface
 
         // Send the right headers
         header('Cache-Control: no-cache, no-store, max-age=0, must-revalidate');
-        header('Expires: January 01, 2013'); // Date in the past
         header('Pragma: no-cache');
         header('Content-Type: image/jpg');
         header('Content-Disposition: attachment; filename="instagram.jpg"');
