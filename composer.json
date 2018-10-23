@@ -1,0 +1,26 @@
+{
+    "name": "aydinanl/instagram",
+    "description": "Image Downloader from Instagram URL.",
+    "keywords": ["instagram", "image","downloader"],
+    "license": "MIT",
+    "type": "library",
+    "require": {
+        "php": "^7.1.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "aydinanl\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Aydın Anlıaçık",
+            "email": "aydin.anliacik@gmail.com",
+            "homepage": "https://www.aydinanliacik.com"
+        }
+    ],
+    "support": {
+        "email": "aydin.anliacik@gmail.com",
+        "source": "https://github.com/aydinanl/instagram-downloader"
+    }
+}
